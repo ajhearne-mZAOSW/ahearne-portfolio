@@ -341,3 +341,56 @@ footer p {
   opacity: 0.5;
   transition: all 0.2s ease-in;
 }
+
+/* Media queries */
+@media screen and (max-width: 980px) {
+  .main-work, .work {
+    width: 100%;
+  }
+  .work-portfolio {
+    flex-direction: column;
+  }
+  .contact-socials {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-socials a {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+  nav a {
+    flex: 0 0 45%;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .hero {
+    background-color: var(--darkPrimary);
+    min-height: auto;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .hero p {
+    font-size: 4vw;
+  }
+  .avatar {
+    margin: 0;
+  }
+  .work > a {
+    flex: 0 0 100%;
+    margin: 3px;
+    padding: 5px 10px;
+    background-color: var(--offWhite);
+}
+  .about-me-title, .my-work-title, .contact-me-title {
+    font-size: 30px;
+  }
+}
