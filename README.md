@@ -72,7 +72,7 @@ The following image shows the web application's appearance and functionality:
 
 ![A webpage titled "Alana Hearne" features a navigation menu in the header, a hero image, various sections, showcased work, contact information, and more.](assets/images/ahearne-portfolio-screenshot.png)
 
-The web application is depoloyed using GitHub Pages: (https://github.com/ajhearne-mZAOSW/ajhearne-portfolio/deployments/github-pages)
+The web application is depoloyed using GitHub Pages: (https://ajhearne-mzaosw.github.io/ahearne-portfolio/)
 
 ## Credits
 
